@@ -41,7 +41,7 @@ class LoginForm extends React.Component {
       const { data, errors } = this.state
       return (
         <Form onSubmit={this.onSubmit} className="LoginForm">
-            <h1 className="branding">See你妈</h1>
+            <h1 className="branding">Seenima</h1>
             <div className="ui equal width grid">
               <div className="column"></div>
               <div className="five wide column">

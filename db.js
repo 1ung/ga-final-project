@@ -1,4 +1,5 @@
 const pg = require('pg');
+const user = require('./models/user');
 
 const configs = {
     user: '1ung',
@@ -15,4 +16,5 @@ pool.on('error', function (err) {
 
 module.exports = {
     pool: pool,
+    user: user(pool)
 };

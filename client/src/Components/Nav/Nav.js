@@ -24,7 +24,7 @@ class Nav extends React.Component {
     render() {
         return (
             <Menu className="ui secondary menu">
-                <a className="item" href="/Dashboard"><h1>See你妈</h1></a>
+                <a className="item" href="/Dashboard"><h1>Seenima</h1></a>
                 <a className="item" href="/User/Profile">Profile</a>
                 <a className="item" href="/User/MyList">My list</a>
                 <div className="right menu">
@@ -33,7 +33,7 @@ class Nav extends React.Component {
                     placeholder='Enter a movie title'
                     className="search"
                 />
-                    <a class="item">Logout</a>
+                    <a className="item">Logout</a>
                 </div>
             </Menu>
         )
